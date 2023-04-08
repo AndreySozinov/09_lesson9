@@ -10,6 +10,7 @@ import json
 from typing import Callable
 from random import randint as r
 from functools import wraps
+__all__ = ['square_equation_solution', 'numbers_gen_to_csv']
 
 
 def solving_equation_from_csv(func) -> Callable[[], None]:

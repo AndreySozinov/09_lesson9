@@ -5,6 +5,7 @@
 # 📌 Если не входят, вызывать функцию со случайными числами из диапазонов.
 from typing import Callable
 from random import randint as r
+__all__ = ['guessing']
 
 
 def func_closure(func: Callable) -> Callable[[], None]:

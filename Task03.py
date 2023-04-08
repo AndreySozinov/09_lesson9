@@ -7,6 +7,7 @@
 # 📌 Имя файла должно совпадать с именем декорируемой функции.
 from typing import Callable
 import json
+__all__ = ['my_func']
 
 
 def deco(func: Callable):

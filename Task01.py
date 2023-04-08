@@ -5,6 +5,7 @@
 # угадать загаданное число за указанное число попыток.
 from typing import Callable
 from random import randint as r
+__all__ = ['func_closure']
 
 
 def func_closure(border: int = 100, tries: int = 10) -> Callable[[], None]:

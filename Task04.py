@@ -2,6 +2,7 @@
 # 📌 Параметр - целое число, количество запусков декорируемой функции.
 from typing import Callable
 from random import randint as r
+__all__ = ['guessing']
 
 
 def count(param):

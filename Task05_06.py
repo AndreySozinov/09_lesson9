@@ -8,6 +8,7 @@ from typing import Callable
 from random import randint as r
 import json
 from functools import wraps
+__all__ = ['guessing']
 
 
 def count(param):
